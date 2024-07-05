@@ -513,7 +513,7 @@ h2.explore-small-text {
 
 /*Responsive*/
 
-@media(max-width: 500px) {
+@media(max-width: 750px) {
 	.head {
 		height: 500px;
 	}
