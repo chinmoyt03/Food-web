@@ -12,6 +12,17 @@ body {
 	line-height: 1.5;
 }
 
+@media(max-width:750px){
+	body{
+	margin: 25px;
+	}
+
+	.footer-links{
+		margin: 15px;	
+	}
+
+}
+
 .container {
 	width: 100%;
 	max-width: 1100px;
@@ -129,6 +140,7 @@ input[type="text"]:focus {
     gap: 18px;
     margin-bottom: 50px;
     justify-content: center;
+	
 }
 
 .container-img .hover {
@@ -440,7 +452,6 @@ h2.explore-small-text {
 	font-weight: 600;
 }
 
-/*Footer bar*/
 .footer-bar {
 	background-color: #F8F8F8;
 	padding-top: 50px;
@@ -467,45 +478,45 @@ h2.explore-small-text {
 	margin-right: 15px;
 }
 
-.footer-bar .footer-last-links {
+.footer-bar .footer-links {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
 
-.footer-bar .footer-last-links ul li{
+.footer-bar .footer-links ul li{
 	list-style: none;
 	margin-bottom: 5px;
 }
 
-.footer-bar .footer-last-links h4.footer-list-title {
+.footer-bar .footer-links h4.footer-list-title {
 	margin-bottom: 10px;
 	letter-spacing: 0.2rem;
 	font-size: 14px;
 }
 
-.footer-bar .footer-last-links ul li a {
+.footer-bar .footer-links ul li a {
 	text-decoration: none;
 	color: #696969;
 	font-size: 14px;
 }
 
-.footer-bar .footer-last-links ul li a:hover {
+.footer-bar .footer-links ul li a:hover {
 	color: #1c1c1c;
 }
 
-.footer-bar .footer-last-links .footer-social-icons {
+.footer-bar .footer-links .footer-social-icons {
 	margin-bottom: 20px;
 }
 
-.footer-bar .footer-last-links .footer-social-icons a {
+.footer-bar .footer-links .footer-social-icons a {
 	color: #1c1c1c;
 }
 
-.footer-bar .footer-last-links .footer-social-icons .fa-facebook,
-.footer-bar .footer-last-links .footer-social-icons .fa-twitter,
-.footer-bar .footer-last-links .footer-social-icons .fa-instagram {
+.footer-bar .footer-links .footer-social-icons .fa-facebook,
+.footer-bar .footer-links .footer-social-icons .fa-twitter,
+.footer-bar .footer-links .footer-social-icons .fa-instagram {
 	font-size: 20px;
 	margin-right: 5px;
 }
@@ -574,12 +585,12 @@ h2.explore-small-text {
 	grid-template-columns: repeat(2, 1fr);
 	}
 
-	.footer-bar .footer-last-links {
+	.footer-bar .footer-links {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	}
 
-	.footer-bar .footer-last-links h4.footer-list-title {
+	.footer-bar .footer-links h4.footer-list-title {
 		margin-top: 20px;
 	}
 
