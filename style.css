@@ -13,9 +13,6 @@ body {
 }
 
 @media(max-width:750px){
-	body{
-	/* margin: 25px; */
-	}
 
 	.collection-grid {
 		margin:25px;
@@ -41,6 +38,13 @@ body {
 	}
 	.footer-links{
 		margin: 15px;	
+	}
+	.container .nav{
+		display: none;
+	}
+
+	.container h1{
+		margin: 15px;
 	}
 
 }
@@ -170,7 +174,7 @@ input[type="text"]:focus {
     cursor: pointer;
     transition: transform 0.3s;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     height: 200px;
     overflow: hidden;
 }
