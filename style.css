@@ -14,9 +14,31 @@ body {
 
 @media(max-width:750px){
 	body{
-	margin: 25px;
+	/* margin: 25px; */
 	}
 
+	.collection-grid {
+		margin:25px;
+	}
+
+	.locality-grid{
+		margin: 25px;
+	}
+
+	.food-app{
+		margin:45px;
+	}
+
+	.explore-title{
+		margin: 25px;
+	}
+	.category{
+
+		margin: 25px;
+	}
+	.footer-bar{
+		margin: 25px;
+	}
 	.footer-links{
 		margin: 15px;	
 	}
