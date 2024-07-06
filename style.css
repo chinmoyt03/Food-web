@@ -79,7 +79,6 @@ h1 {
 	margin-bottom: 40px;
 }
 
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -106,7 +105,6 @@ nav .nav a {
 	padding-right: 30px;
 	font-size: 18px;
 }
-
 
 .head-text {
 	display: flex;
@@ -139,7 +137,7 @@ span.bold-word {
 }
 
 .fa-map-marker-alt {
-	color: #17739d;
+	color: #988a43;
 	font-size: 16px;
 	margin-right: 4px;
 }
@@ -167,7 +165,7 @@ input[type="text"]:focus {
 }
 
 .fa-search {
-	color: #2265ae;
+	color: #8a8232;
 	font-size: 16px;
 	margin: 0 10px;
 }
@@ -178,7 +176,6 @@ input[type="text"]:focus {
     gap: 18px;
     margin-bottom: 50px;
     justify-content: center;
-	
 }
 
 .container-img .hover {
@@ -225,7 +222,6 @@ input[type="text"]:focus {
     font-size: 12px;
     font-weight: 500;
     text-align: center;
-
 }
 
 .collections {
@@ -241,7 +237,7 @@ input[type="text"]:focus {
 
 .collections a{
 	font-size: 16px;
-	color: #f57082;
+	color: #2e5f9f;
 	text-decoration: none;
 }
 
@@ -281,13 +277,13 @@ input[type="text"]:focus {
 	color: #fff;
 }
 
-/*Localities*/
+/*Localities section*/
 h1.locality-title {
 	color: #363636;
-	font-size: 36px;
+	font-size: 34px;
 	font-weight: 400;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .locality-grid {
@@ -406,23 +402,11 @@ h1.locality-title {
 	height: 40px;
 }
 
-/*Explore*/
+/*Explore section*/
 h1.explore-title {
 	margin-bottom: 20px;
 	color: #363636;
 } 
-
-h2.explore-small-text {
-	margin-bottom: 20px;
-	color: #363636;
-}
-
-.explore-small-text{
-	border: px solid black;
-	padding: 5px;
-	margin: 10px 0;
-	display:flex;
-}
 
 .footer-texts {
 	display: grid;
@@ -430,7 +414,6 @@ h2.explore-small-text {
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
-
 
 .footer-texts ul li a:hover {
 	color: #363636;
